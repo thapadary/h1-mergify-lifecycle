@@ -1,7 +1,0 @@
-pull_request_rules:
-  - name: H1 extends replacement B
-    conditions:
-      - label = h1-extends-b-never
-    actions:
-      comment:
-        message: H1-EXTENDS-B
