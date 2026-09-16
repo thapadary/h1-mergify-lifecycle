@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: H1 extends replacement B
+    conditions:
+      - -draft
+    actions:
+      comment:
+        message: H1-EXTENDS-B
